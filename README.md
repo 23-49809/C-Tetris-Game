@@ -24,8 +24,13 @@ Modern Tetris clone written in C++17 with raylib 4.5. The repository includes a 
 - Launch `game.exe` from the repository root so it can locate `Sounds/`, `Font/`, and `lib/`.
 - Do not move the executable without copying the asset folders alongside it.
 
+## Prerequisites
+- raylib 4.5+ development libraries
+- C++17 compiler (e.g., MinGW-w64 on Windows or clang/gcc on macOS/Linux)
+- `make` or `mingw32-make` in your PATH
+
 ## Build from source
-1) Install raylib 4.5+ and a C++17 toolchain (e.g., MinGW-w64 on Windows).
+1) Install the prerequisites above.
 2) From the repository root, run `mingw32-make` (or `make`) to produce `game.exe` in the root directory.
 3) Run the binary from the repository root to ensure assets load correctly.
 
